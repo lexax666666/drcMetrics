@@ -1,0 +1,28 @@
+.hero { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 2.5rem 0; text-align: center; }
+.heroPartner { color: #ff5823; font-weight: 600; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem; }
+.heroTitle { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+.heroDesc { color: #6b7280; font-size: 1.125rem; margin-bottom: 0.5rem; }
+.tabs { display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; }
+.tab { padding: 0.5rem 1.5rem; border-radius: 9999px; font-weight: 600; border: 1.5px solid #e5e7eb; background: #fff; color: #222; cursor: pointer; transition: all 0.2s; }
+.tabActive { background: #ff5823; color: #fff; border-color: #ff5823; }
+.plans { display: grid; grid-template-columns: 1fr; gap: 2rem; }
+@media (min-width: 768px) { .plans { grid-template-columns: 1fr 1fr; } }
+.planCard { background: #fff; border-radius: 1.5rem; box-shadow: 0 2px 16px 0 rgba(0,0,0,0.04); border: 1.5px solid #e5e7eb; padding: 2rem; display: flex; flex-direction: column; position: relative; }
+.badge { position: absolute; top: 1.5rem; right: 1.5rem; background: #fff4ed; color: #ff5823; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 1rem; border-radius: 9999px; text-transform: uppercase; letter-spacing: 0.1em; }
+.planTitle { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem; }
+.planDesc { color: #6b7280; margin-bottom: 1rem; }
+.priceRow { display: flex; align-items: flex-end; gap: 0.5rem; margin-bottom: 1rem; }
+.price { font-size: 2.25rem; font-weight: 700; color: #ff5823; }
+.priceOriginal { text-decoration: line-through; color: #bdbdbd; font-size: 1.125rem; }
+.pricePer { color: #222; font-size: 1.125rem; }
+.annualRow { font-size: 0.95rem; color: #6b7280; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
+.annualValue { font-weight: 600; color: #ff5823; }
+.features { margin: 1rem 0 1.5rem 0; padding-left: 1.25rem; }
+.features li { color: #222; margin-bottom: 0.5rem; position: relative; }
+.features li::before { content: ""; display: inline-block; width: 0.5rem; height: 0.5rem; background: #ff5823; border-radius: 50%; margin-right: 0.5rem; vertical-align: middle; }
+.trialRow { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+.trialText { font-weight: 600; color: #ff5823; }
+.lockTitle { font-weight: 700; color: #222; }
+.lockDesc { color: #6b7280; font-size: 0.95rem; margin-bottom: 1rem; }
+.cta { margin-top: auto; display: inline-block; width: 100%; text-align: center; padding: 0.75rem 0; background: #ff5823; color: #fff; font-weight: 600; border-radius: 0.75rem; font-size: 1.125rem; transition: background 0.2s; text-decoration: none; }
+.cta:hover { background: #e04e1e; } 
