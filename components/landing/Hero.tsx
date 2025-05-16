@@ -1,7 +1,11 @@
 
+'use client';
 import { Button } from "@/components/ui/button";
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
+  const router = useRouter();
+
   return (
     <div className="relative bg-gradient-to-b from-[var(--static-background-strong)] to-[var(--static-background-standard)] overflow-hidden">
       <div className="container mx-auto px-4 pt-16 pb-24 md:pt-24 md:pb-32">
@@ -17,8 +21,8 @@ const Hero = () => {
               <Button className="btn-primary btn-lg w-full sm:w-auto">
                 Start Free Trial
               </Button>
-              <Button variant="outline" className="btn-secondary btn-lg w-full sm:w-auto" >
-                See a Demo
+              <Button variant="outline" className="btn-secondary btn-lg w-full sm:w-auto text-[var(--static)]" onClick={() => router.push('/analytics')} >
+                See a demo
               </Button>
             </div>
             <div className="mt-8 text-[var(--static-text-weak)] text-sm flex items-center justify-center lg:justify-start">
