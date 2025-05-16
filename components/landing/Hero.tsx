@@ -21,7 +21,7 @@ const Hero = () => {
               <Button className="btn-primary btn-lg w-full sm:w-auto">
                 Start Free Trial
               </Button>
-              <Button variant="outline" className="btn-secondary btn-lg w-full sm:w-auto text-[var(--static)]" onClick={() => router.push('/analytics')} >
+              <Button variant="outline" className="btn-secondary btn-lg w-full sm:w-auto text-black" onClick={() => router.push('/analytics')} >
                 See a demo
               </Button>
             </div>
