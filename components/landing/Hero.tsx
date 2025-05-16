@@ -17,8 +17,8 @@ const Hero = () => {
               <Button className="btn-primary btn-lg w-full sm:w-auto">
                 Start Free Trial
               </Button>
-              <Button variant="outline" className="btn-secondary btn-lg w-full sm:w-auto">
-                Book a Demo
+              <Button variant="outline" className="btn-secondary btn-lg w-full sm:w-auto" >
+                See a Demo
               </Button>
             </div>
             <div className="mt-8 text-[var(--static-text-weak)] text-sm flex items-center justify-center lg:justify-start">
