@@ -14,14 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "DRC Metrics | Amazon Seller Analytics Dashboard",
-  description: "Analytics dashboard for Amazon sellers to track performance metrics, ACOS, profit, revenue, and campaign performance.",
-  icons: {
-    icon: [
-      { url: '/favicon.svg' },
-      { url: '/images/favicon/32x32.png', sizes: '32x32' },
-      { url: '/images/favicon/256x256.png', sizes: '256x256' }
-    ]
-  }
+  description: "Analytics dashboard for Amazon sellers to track performance metrics, ACOS, profit, revenue, and campaign performance."
 };
 
 export default function RootLayout({
