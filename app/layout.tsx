@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DRC Metrics | Amazon Seller Analytics Dashboard",
-  description: "Analytics dashboard for Amazon sellers to track performance metrics, ACOS, profit, revenue, and campaign performance."
+  title: "DRC Metrics | Amazon Seller Analytics & Ads Strategy Dashboard",
+  description: "Analytics dashboard for Amazon sellers to track and optimize performance metrics, ACOS, advertising strategy, profit, revenue, and campaign performance."
 };
 
 export default function RootLayout({
