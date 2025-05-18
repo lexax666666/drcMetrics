@@ -1,0 +1,11 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- DRC Text -->
+  <text x="20" y="65" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="var(--static-text-standard)">DRC</text>
+  
+  <!-- Distinctive curved swoosh element -->
+  <path d="M20 75 Q80 85 140 75 Q200 65 240 80 Q260 85 280 80" 
+        fill="none" 
+        stroke="#FF9900" 
+        stroke-width="4" 
+        stroke-linecap="round"/>
+</svg>
