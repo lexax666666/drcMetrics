@@ -127,12 +127,12 @@ export default function PricingPage() {
                   <span className="text-gray-500 line-through text-lg">{plan.original}</span>
                   <span className="text-lg text-gray-700">{plan.per}</span>
                 </div>
-                {tab === "annual" && plan.annual && (
+                {/* {tab === "annual" && plan.annual && (
                   <div className="mb-2 text-sm text-gray-500 flex items-center gap-2">
                     <span>Billed at</span>
                     <span className="font-semibold text-blue-600">{plan.annual}</span>
                   </div>
-                )}
+                )} */}
                 <ul className="mb-6 mt-2 space-y-2">
                   {plan.features.map((feature) => (
                     <li key={feature} className="flex items-center gap-2 text-gray-700">

@@ -108,12 +108,12 @@ export default function JoinPage() {
             >
               Pay Monthly
             </button>
-            <button
+            {/* <button
               className={tab === "annual" ? `${styles.tab} ${styles.tabActive}` : styles.tab}
               onClick={() => setTab("annual")}
             >
               Pay Annually
-            </button>
+            </button> */}
           </div>
           <div className={styles.plans}>
             {plans[tab].map((plan) => (
@@ -128,12 +128,6 @@ export default function JoinPage() {
                   <span className={styles.priceOriginal}>{plan.original}</span>
                   <span className={styles.pricePer}>{plan.per}</span>
                 </div>
-                {tab === "annual" && plan.annual && (
-                  <div className={styles.annualRow}>
-                    <span>Billed at</span>
-                    <span className={styles.annualValue}>{plan.annual}</span>
-                  </div>
-                )}
                 <ul className={styles.features}>
                   {plan.features.map((feature) => (
                     <li key={feature}>{feature}</li>
