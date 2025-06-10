@@ -117,7 +117,8 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-[var(--static-divider-standard)] flex flex-col md:flex-row justify-between items-center">
           <p className="text-[var(--static-text-weak)] text-sm">
-            © {currentYear} DrcMetric. All rights reserved.
+            © {currentYear} DrcMetric. All rights reserved.<br />
+            A subsidiary of Harmony Haulage LLC.
           </p>
           <div className="mt-4 md:mt-0">
             <img 
